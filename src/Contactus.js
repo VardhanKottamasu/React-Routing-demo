@@ -1,16 +1,31 @@
 import React, { Component } from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 export class Contactus extends Component {
-    render() {
-        return ( 
-          <div>
-            <Jumbotron>
-              <h1>Contact Us</h1>
-            </Jumbotron>
-          </div>      
-      );
-    }
+  
+  render() {
+    return (
+      <form class="form-group">
+        <p>For us, as a company to grow, your feedback matters the most</p>
+      <label>
+        Name:<divider></divider>
+        <input type="text" name="name" />
+      </label>
+      <br/>
+      <label>
+        Email Address:
+        <input type="text" name="name" />
+      </label>
+      <br/>
+      
+      <label>
+        Email Address:  
+        <input type="text" name="name" />
+      </label>
+      <br/>
+      <input class="btn btn-success" type="submit" value="Submit" />
+    </form>
+    );
+  }
 }
 
 export default Contactus
