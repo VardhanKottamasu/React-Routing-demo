@@ -5,7 +5,7 @@ export class Contactus extends Component {
   render() {
     return (
       <form class="form-group">
-        <p>For us, as a company to grow, your feedback matters the most</p>
+        <p>For us, as a company to grow, your feedback matters the most!</p>
       <label>
         Name:<divider></divider>
         <input type="text" name="name" />
@@ -18,8 +18,9 @@ export class Contactus extends Component {
       <br/>
       
       <label>
-        Email Address:  
-        <input type="text" name="name" />
+        Message:<br/>  
+        <input  
+          type="text" name="name" placeholder="Enter your message"/>
       </label>
       <br/>
       <input class="btn btn-success" type="submit" value="Submit" />
